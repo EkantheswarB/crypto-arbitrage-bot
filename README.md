@@ -47,7 +47,7 @@ crypto-arbitrage-bot/
 
 Getting Started
 1. Clone the Repository
-   git clone https://github.com/yourgithub/crypto-arbitrage-bot.git
+   git clone https://github.com/EkantheswarB/crypto-arbitrage-bot.git
    cd crypto-arbitrage-bot
 
 2. Create and Activate a Virtual Environment
