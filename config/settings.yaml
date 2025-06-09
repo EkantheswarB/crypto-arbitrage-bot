@@ -1,0 +1,31 @@
+#General Settings
+poll_interval: 5 # 5 seconds between price fetches
+
+#Exchanges
+exchanges:
+  coinbase:
+    enabled: true
+  binance:
+    enabled: true
+
+#Arbitrage detection
+arbitrage:
+  min_spread_percentage: 0.3  # Minimum percentage difference to consider arbitrage
+
+#Trading (simulated)
+trade:
+  amount_usd: 175000
+  fee_percentage: 0.1  # 0.1% per trade
+
+# Logging
+logging:
+  level: INFO
+  file: data/logs/arb_bot.log
+
+
+#Telegram
+notifier:
+  telegram:
+    enabled: true
+    bot_token: "YOUR_TELEGRAM_BOT_TOKEN"
+    chat_id: "YOUR_CHAT_ID"
