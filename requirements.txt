@@ -1,0 +1,9 @@
+ccxt
+requests
+pandas
+python-telegram-bot
+dash
+plotly
+Pyyaml
+aiohttp
+streamlit
